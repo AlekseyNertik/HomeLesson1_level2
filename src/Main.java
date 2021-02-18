@@ -45,7 +45,6 @@ System.out.println("\nПоследний блок через массив кла
           new Track1(200),
           new Wall1(4)
         };
-
         for (DreamTeam d: dreamTeams) {
             for (Obstacle o: obstacles) {
                 o.doIt(d);
